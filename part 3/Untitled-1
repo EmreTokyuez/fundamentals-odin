@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<script>
+			function add7(number) {
+				return console.log(number + 7);
+			}
+
+			add7(2);
+
+			let multiply = (number1, number2) => console.log(number1 * number2);
+
+			function firstLetterCapital(text) {
+				return console.log(text.charAt(0).toUpperCase() + text.toLowerCase().slice(1));
+			}
+
+			firstLetterCapital('mwdawdmwaDAWDWADA');
+
+			function lastLetter(text) {
+				return console.log(text.slice(-1));
+			}
+		</script>
+	</body>
+</html>

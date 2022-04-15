@@ -7,42 +7,6 @@
 		<title>Document</title>
 	</head>
 	<body>
-		<script>
-			let result;
-
-			function computerPlay() {
-				let playRand = Math.floor(Math.random() * 3);
-				switch (playRand) {
-					case (playRand = 0):
-						return 'rock';
-					case (playRand = 1):
-						return 'paper';
-					case (playRand = 2):
-						return 'scissors';
-				}
-			}
-
-			const computerSelection = computerPlay();
-
-			function PlayRound(playerSelection, computerSelection) {
-				playerSelection2 = playerSelection.toLowerCase();
-				if (playerSelection2 == computerSelection) {
-					return (result = 'Tie');
-				}
-				if (playerSelection2 == 'rock' && computerSelection == 'paper') {
-					return (result = 'You lose');
-				}
-				if ((playerSelection2 = 'paper' && computerSelection == 'rock')) {
-					return (result = 'You win');
-				}
-				if ((playerSelection2 = 'scissors' && computerSelection == 'paper')) {
-					return (result = 'You win');
-				}
-				if ((playerSelection2 = 'paper' && computerSelection == 'scissors')) {
-					return (result = 'You lose');
-				}
-				return result;
-			}
-		</script>
+		<script src="main.js"></script>
 	</body>
 </html>
